@@ -1,0 +1,103 @@
+{
+  "inductor": {
+    "type": "customDefinitions.CustomBlock",
+    "id": "34f10296-5c7a-e462-7802-9d886000e84f",
+    "x": 1376,
+    "y": 315,
+    "width": 100,
+    "height": 100,
+    "alpha": 1,
+    "selectable": true,
+    "draggable": true,
+    "angle": 0,
+    "userData": {},
+    "cssClass": "customDefinitions_CustomBlock",
+    "ports": [
+      {
+        "type": "customDefinitions.customPorts.CustomHybridPort",
+        "id": "8ec99e49-2a61-7bc5-ceab-b73da4602ac3",
+        "width": 10,
+        "height": 10,
+        "alpha": 1,
+        "selectable": false,
+        "draggable": true,
+        "angle": 0,
+        "userData": {},
+        "cssClass": "customDefinitions_customPorts_CustomHybridPort",
+        "bgColor": "rgba(79,104,112,1)",
+        "color": "rgba(27,27,27,1)",
+        "stroke": 1,
+        "dasharray": null,
+        "maxFanOut": 9007199254740991,
+        "name": "e47eeb44-49a7-acd3-6d73-a155edd2d5d0",
+        "semanticGroup": "global",
+        "labels": [],
+        "port": "customDefinitions.customPorts.CustomHybridPort",
+        "locator": "customDefinitions.customLocators.CustomLeftLocator",
+        "locatorAttr": {
+          "index": 0,
+          "total": 1
+        }
+      },
+      {
+        "type": "customDefinitions.customPorts.CustomHybridPort",
+        "id": "3195eac1-8e2c-0440-511a-dfdc740285c5",
+        "width": 10,
+        "height": 10,
+        "alpha": 1,
+        "selectable": false,
+        "draggable": true,
+        "angle": 0,
+        "userData": {},
+        "cssClass": "customDefinitions_customPorts_CustomHybridPort",
+        "bgColor": "rgba(79,104,112,1)",
+        "color": "rgba(27,27,27,1)",
+        "stroke": 1,
+        "dasharray": null,
+        "maxFanOut": 9007199254740991,
+        "name": "4c93c876-72e0-ec52-75e2-c1ceacceeb86",
+        "semanticGroup": "global",
+        "labels": [],
+        "port": "customDefinitions.customPorts.CustomHybridPort",
+        "locator": "customDefinitions.customLocators.CustomRightLocator",
+        "locatorAttr": {
+          "index": 0,
+          "total": 1
+        }
+      }
+    ],
+    "path": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gaW5kdWN0b3Iuc3ZnIC0tPgoKPHN2ZwogICB3aWR0aD0iMTAwIgogICBoZWlnaHQ9IjEwMCIKICAgdmlld0JveD0iMCAwIDEwMCAxMDAiCiAgIHN0cm9rZS1saW5lam9pbj0icm91bmQiCiAgIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICAgdmVyc2lvbj0iMS4xIgogICBpZD0ic3ZnMiIKICAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcwogICAgIGlkPSJkZWZzMiIgLz4KICA8IS0tIExlZnQgY29ubmVjdGlvbiBsaW5lIC0tPgogIDwhLS0gSW5kdWN0b3IgY29pbHMgKHNlcmllcyBvZiBhcmNzKSAtLT4KICA8cGF0aAogICAgIGQ9Im0gMTUuMDYzODI5LDUwLjE3MDIxMiBxIDcsLTE1IDE0LDAgNywtMTUgMTQsMCA3LC0xNSAxNCwwIDcsLTE1IDE0LDAgNywtMTUgMTQsMCIKICAgICBzdHJva2U9IiNjY2NjY2MiCiAgICAgc3Ryb2tlLXdpZHRoPSIyIgogICAgIGZpbGw9Im5vbmUiCiAgICAgaWQ9InBhdGgxIiAvPgogIDwhLS0gUmlnaHQgY29ubmVjdGlvbiBsaW5lIC0tPgogIDxsaW5lCiAgICAgeDE9Ijg1LjI2NDQ4MSIKICAgICB5MT0iNTAuMTcwMjEyIgogICAgIHgyPSIxMDEuMjg4NyIKICAgICB5Mj0iNTAuMTcwMjEyIgogICAgIHN0cm9rZT0iI2NjY2NjYyIKICAgICBzdHJva2Utd2lkdGg9IjIiCiAgICAgaWQ9ImxpbmUyIiAvPgogIDxsaW5lCiAgICAgeDE9Ii0xLjk5OTU1NzYiCiAgICAgeTE9IjUwLjE3ODI5OSIKICAgICB4Mj0iMTQuODQzNTMiCiAgICAgeTI9IjUwLjE3ODI5OSIKICAgICBzdHJva2U9IiNjY2NjY2MiCiAgICAgc3Ryb2tlLXdpZHRoPSIyIgogICAgIGlkPSJsaW5lMi05IiAvPgo8L3N2Zz4K",
+    "labels": [
+      {
+        "type": "draw2d.shape.basic.Label",
+        "id": "55e100ae-f356-6e2b-0c0e-b41a4096704d",
+        "x": -3,
+        "y": -15,
+        "width": 44.24609375,
+        "height": 19.66666603088379,
+        "alpha": 1,
+        "selectable": true,
+        "draggable": true,
+        "angle": 0,
+        "userData": {},
+        "cssClass": "draw2d_shape_basic_Label",
+        "ports": [],
+        "bgColor": "rgba(255,255,255,1)",
+        "color": "rgba(0,0,0,1)",
+        "stroke": 0,
+        "radius": 0,
+        "dasharray": null,
+        "text": "inductor",
+        "outlineStroke": 0,
+        "outlineColor": "rgba(0,0,0,0)",
+        "fontSize": 12,
+        "fontColor": "rgba(0,0,0,1)",
+        "fontFamily": "'Consolas', monospace",
+        "bold": false,
+        "editor": "draw2d.ui.LabelInplaceEditor",
+        "locator": "draw2d.layout.locator.DraggableLocator"
+      }
+    ],
+    "lockedPorts": true
+  }
+}

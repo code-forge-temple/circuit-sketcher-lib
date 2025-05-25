@@ -1,0 +1,103 @@
+{
+  "capacitor": {
+    "type": "customDefinitions.CustomBlock",
+    "id": "cda36afd-11eb-ad3c-9f48-5e7577c3c054",
+    "x": 1578,
+    "y": 315,
+    "width": 100,
+    "height": 100,
+    "alpha": 1,
+    "selectable": true,
+    "draggable": true,
+    "angle": 0,
+    "userData": {},
+    "cssClass": "customDefinitions_CustomBlock",
+    "ports": [
+      {
+        "type": "customDefinitions.customPorts.CustomHybridPort",
+        "id": "cb5db33e-245d-3ccb-b816-197c782ef920",
+        "width": 10,
+        "height": 10,
+        "alpha": 1,
+        "selectable": false,
+        "draggable": true,
+        "angle": 0,
+        "userData": {},
+        "cssClass": "customDefinitions_customPorts_CustomHybridPort",
+        "bgColor": "rgba(79,104,112,1)",
+        "color": "rgba(27,27,27,1)",
+        "stroke": 1,
+        "dasharray": null,
+        "maxFanOut": 9007199254740991,
+        "name": "b9fb70ee-7a42-39bd-d213-da26696bea0b",
+        "semanticGroup": "global",
+        "labels": [],
+        "port": "customDefinitions.customPorts.CustomHybridPort",
+        "locator": "customDefinitions.customLocators.CustomLeftLocator",
+        "locatorAttr": {
+          "index": 0,
+          "total": 1
+        }
+      },
+      {
+        "type": "customDefinitions.customPorts.CustomHybridPort",
+        "id": "8290650a-7c3b-42d4-bbe8-0122bdc08d89",
+        "width": 10,
+        "height": 10,
+        "alpha": 1,
+        "selectable": false,
+        "draggable": true,
+        "angle": 0,
+        "userData": {},
+        "cssClass": "customDefinitions_customPorts_CustomHybridPort",
+        "bgColor": "rgba(79,104,112,1)",
+        "color": "rgba(27,27,27,1)",
+        "stroke": 1,
+        "dasharray": null,
+        "maxFanOut": 9007199254740991,
+        "name": "f35f85b0-3fe5-f682-a93f-1c4792adb3a0",
+        "semanticGroup": "global",
+        "labels": [],
+        "port": "customDefinitions.customPorts.CustomHybridPort",
+        "locator": "customDefinitions.customLocators.CustomRightLocator",
+        "locatorAttr": {
+          "index": 0,
+          "total": 1
+        }
+      }
+    ],
+    "path": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj4NCiAgPCEtLSBMZWZ0IGxlYWQgLS0+DQogIDxsaW5lIHgxPSIwIiB5MT0iNTAiIHgyPSI0MCIgeTI9IjUwIiBzdHJva2U9IiNjY2NjY2MiIHN0cm9rZS13aWR0aD0iMiIgLz4NCiAgPCEtLSBMZWZ0IHBsYXRlIC0tPg0KICA8bGluZSB4MT0iNDAiIHkxPSIzMCIgeDI9IjQwIiB5Mj0iNzAiIHN0cm9rZT0iI2NjY2NjYyIgc3Ryb2tlLXdpZHRoPSIyIiAvPg0KICA8IS0tIFJpZ2h0IHBsYXRlIC0tPg0KICA8bGluZSB4MT0iNjAiIHkxPSIzMCIgeDI9IjYwIiB5Mj0iNzAiIHN0cm9rZT0iI2NjY2NjYyIgc3Ryb2tlLXdpZHRoPSIyIiAvPg0KICA8IS0tIFJpZ2h0IGxlYWQgLS0+DQogIDxsaW5lIHgxPSI2MCIgeTE9IjUwIiB4Mj0iMTAwIiB5Mj0iNTAiIHN0cm9rZT0iI2NjY2NjYyIgc3Ryb2tlLXdpZHRoPSIyIiAvPg0KPC9zdmc+DQo=",
+    "labels": [
+      {
+        "type": "draw2d.shape.basic.Label",
+        "id": "7c53646c-79a1-1450-b9a4-d8a7cb211963",
+        "x": -10,
+        "y": -16,
+        "width": 54.71875,
+        "height": 19,
+        "alpha": 1,
+        "selectable": true,
+        "draggable": true,
+        "angle": 0,
+        "userData": {},
+        "cssClass": "draw2d_shape_basic_Label",
+        "ports": [],
+        "bgColor": "rgba(255,255,255,1)",
+        "color": "rgba(0,0,0,1)",
+        "stroke": 0,
+        "radius": 0,
+        "dasharray": null,
+        "text": "capacitor",
+        "outlineStroke": 0,
+        "outlineColor": "rgba(0,0,0,0)",
+        "fontSize": 12,
+        "fontColor": "rgba(0,0,0,1)",
+        "fontFamily": "'Consolas', monospace",
+        "bold": false,
+        "editor": "draw2d.ui.LabelInplaceEditor",
+        "locator": "draw2d.layout.locator.DraggableLocator"
+      }
+    ],
+    "lockedPorts": true
+  }
+}

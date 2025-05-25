@@ -1,0 +1,1 @@
+I, `@code-forge-temple`, created `resistor.svg` and `resistor.json` and release them under CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/).

@@ -9,13 +9,22 @@ The goal of this project is to offer a collection of open, permissively licensed
 ## How to Use
 
 - **For Users:**  
-  Download or clone this repository and use the images in your own projects, or reference them directly in the supported plugins/apps.
+
+  - **Import the entire library:**
+    - Download the complete component library: [library.json](assets/lib/library.json)
+    - Import it directly into Circuit Sketcher to get access to all available components (right click on canvas to show the menu, then `Library...` -> `Import Library`)
+
+  - **Import individual components:**
+    - Browse individual components: [assets/nodes](assets/nodes)
+    - Download specific `.json` files for the components you need
+    - Import them one by one into your Circuit Sketcher workspace (right click on canvas to show the menu, then `Import Node`)
+
 - **For Developers:**  
-  Integrate these assets into your plugin or app by following the usage instructions in your tool’s documentation.
+  Follow the instructions from  [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## Directory Structure
 
-All contributed components are organized under the `assets` root folder.  
+All contributed components are organized under the `assets/nodes` root folder.  
 Each user should create a pull request with a new folder named after the component they want to add (e.g., `my-component`).  
 Inside each component folder:
 
@@ -31,14 +40,15 @@ The folder name, image file, and JSON file must all use the same name (all lower
 **Example:**
 ```
 assets/
-  resistor/
-    resistor.svg
-    resistor.json
-    ASSETS.md
-  op-amp/
-    op-amp.svg
-    op-amp.json
-    ASSETS.md
+  nodes/
+    resistor/
+      resistor.svg
+      resistor.json
+      ASSETS.md
+    op-amp/
+      op-amp.svg
+      op-amp.json
+      ASSETS.md
 ```
 
 ## Image Asset Policy 🚨

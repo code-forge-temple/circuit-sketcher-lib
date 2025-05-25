@@ -1,0 +1,10 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"  stroke-linejoin="round" stroke-linecap="round">
+  <!-- Left lead -->
+  <line x1="0" y1="50" x2="30" y2="50" stroke="#cccccc" stroke-width="2"/>
+  <!-- Diode triangle -->
+  <polygon points="30,30 30,70 50,50" fill="none" stroke="#cccccc" stroke-width="2"/>
+  <!-- Vertical bar -->
+  <line x1="50" y1="30" x2="50" y2="70" stroke="#cccccc" stroke-width="2"/>
+  <!-- Right lead (now starting from the vertical bar) -->
+  <line x1="50" y1="50" x2="100" y2="50" stroke="#cccccc" stroke-width="2"/>
+</svg>

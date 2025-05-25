@@ -1,0 +1,1 @@
+I, `@code-forge-temple`, created `inductor.svg` and `inductor.json` and release them under CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/).

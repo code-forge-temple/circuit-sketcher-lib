@@ -1,0 +1,28 @@
+<svg width="100" height="100" viewBox="0 0 100 100"
+     xmlns="http://www.w3.org/2000/svg" stroke-linejoin="round" stroke-linecap="round">
+  <defs>
+    <!-- Define arrowhead marker -->
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="0" refY="3"
+            orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 Z" fill="#cccccc"/>
+    </marker>
+  </defs>
+
+  <!-- Left lead -->
+  <line x1="0" y1="50" x2="30" y2="50" stroke="#cccccc" stroke-width="2"/>
+
+  <!-- Diode triangle -->
+  <polygon points="30,30 30,70 50,50" fill="none" stroke="#cccccc" stroke-width="2"/>
+
+  <!-- Cathode bar -->
+  <line x1="50" y1="30" x2="50" y2="70" stroke="#cccccc" stroke-width="2"/>
+
+  <!-- Right lead -->
+  <line x1="50" y1="50" x2="100" y2="50" stroke="#cccccc" stroke-width="2"/>
+
+  <!-- Light emission arrows (using marker-end for visible arrowheads) -->
+  <line x1="55" y1="35" x2="65" y2="25" stroke="#cccccc" stroke-width="2"
+        marker-end="url(#arrow)"/>
+  <line x1="60" y1="45" x2="70" y2="35" stroke="#cccccc" stroke-width="2"
+        marker-end="url(#arrow)"/>
+</svg>

@@ -1,0 +1,1 @@
+I, `@code-forge-temple`, created `dc-power-source.svg` and `dc-power-source.json` and release them under CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/).

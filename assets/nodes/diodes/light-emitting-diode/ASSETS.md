@@ -1,0 +1,1 @@
+I, `@code-forge-temple`, created `light-emitting-diode.svg` and `light-emitting-diode.json` and release them under CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/).

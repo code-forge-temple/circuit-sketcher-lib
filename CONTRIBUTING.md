@@ -6,7 +6,7 @@ We welcome new circuit node images and exports, but to keep this project legally
 
 2. For each circuit node in your pull request, include a short declaration in a separate `ASSETS.md` file:
     - If you created both the image and the JSON yourself:
-    > “I, `@your‐username`, created `my‐resistor.png` and `my‐resistor.json` and release them under CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/).”
+    > “I, `@your‐username`, created `my‐resistor.svg` and `my‐resistor.json` and release them under CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/).”
      
     - If you have created the image with AI image generator:
     > “I, @your-username, created `my-symbol.svg` using ChatGPT (OpenAI) and release it under CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/).”
@@ -22,7 +22,7 @@ We welcome new circuit node images and exports, but to keep this project legally
 
 ## Component Folder Structure
 
-All contributed components must be placed in a new folder under the `assets` root directory.  
+All contributed components must be placed in a new folder under the `assets/nodes` root directory.  
 Each folder should be named after the component (all lowercase, hyphens for spaces), and must include:
 
 - `my-component.svg` (preferred) or `my-component.png`: The image/icon for the component.
@@ -34,12 +34,13 @@ Each folder should be named after the component (all lowercase, hyphens for spac
 **Example:**
 ```
 assets/
-  resistor/
-    resistor.svg
-    resistor.json
-    ASSETS.md
-  op-amp/
-    op-amp.svg
-    op-amp.json
-    ASSETS.md
+  nodes/
+    resistor/
+      resistor.svg
+      resistor.json
+      ASSETS.md
+    op-amp/
+      op-amp.svg
+      op-amp.json
+      ASSETS.md
 ```
