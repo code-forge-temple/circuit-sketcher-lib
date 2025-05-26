@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="60"
+  height="62"
+  viewBox="0 0 60 62"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .pin { stroke: #cccccc; stroke-width: 6; }
+    .body { fill:rgb(232, 232, 232); stroke: #cccccc; stroke-width: 2; }
+    .text { fill: #cccccc; font-size: 4px; font-family: sans-serif; }
+    .label { fill: #cccccc; font-size: 8px; font-family: Consolas; }
+  </style>
+
+  <!-- Chip body -->
+  <rect x="10" y="1" width="40" height="60" rx="3" ry="3" class="body"/>
+
+  <!-- Top notch: semicircle inward -->
+  <path d="M25,1.5 A5,5 0 0 0 35,1.5" fill="none" stroke="#cccccc" stroke-width="2"/>
+
+  <!-- Left pins -->
+  <line x1="10" y1="13" x2="0" y2="13" class="pin"/>
+  <line x1="10" y1="25" x2="0" y2="25" class="pin"/>
+  <line x1="10" y1="37" x2="0" y2="37" class="pin"/>
+  <line x1="10" y1="49" x2="0" y2="49" class="pin"/>
+
+  <!-- Right pins -->
+  <line x1="50" y1="13" x2="60" y2="13" class="pin"/>
+  <line x1="50" y1="25" x2="60" y2="25" class="pin"/>
+  <line x1="50" y1="37" x2="60" y2="37" class="pin"/>
+  <line x1="50" y1="49" x2="60" y2="49" class="pin"/>
+
+  <!-- Pin numbers (left) -->
+  <text x="14" y="14" class="text">1</text>
+  <text x="14" y="26" class="text">2</text>
+  <text x="14" y="38" class="text">3</text>
+  <text x="14" y="50" class="text">4</text>
+
+  <!-- Pin numbers (right) -->
+  <text x="46" y="14" class="text" text-anchor="end">5</text>
+  <text x="46" y="26" class="text" text-anchor="end">6</text>
+  <text x="46" y="38" class="text" text-anchor="end">7</text>
+  <text x="46" y="50" class="text" text-anchor="end">8</text>
+
+  <!-- Rotated chip label -->
+  <text
+    x="31.765957"
+    y="-33.148937"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    transform="rotate(90)"
+    class="label">ATtiny</text>
+
+  <text
+    x="19.102695"
+    y="-25.4603"
+    transform="rotate(89.864746)"
+    class="text"
+    style="font-family: Consolas;">13/25/45/85</text>
+</svg>

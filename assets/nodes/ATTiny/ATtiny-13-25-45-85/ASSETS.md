@@ -1,0 +1,1 @@
+I, `@code-forge-temple`, created `ATtiny-13-25-45-85.svg` and `ATtiny-13-25-45-85.json` and release them under CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/).
