@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="100"
+  height="100"
+  viewBox="0 0 100 100"
+  xmlns="http://www.w3.org/2000/svg"
+  stroke-linejoin="round"
+  stroke-linecap="round">
+
+  <style>
+    .line { stroke: #cccccc; stroke-width: 2; fill: none; }
+    .arrow { fill: #cccccc; }
+  </style>
+
+  <!-- Transistor circle body -->
+  <ellipse
+    cx="40.904"
+    cy="50.283"
+    rx="24.809"
+    ry="22.145"
+    class="line" />
+
+  <!-- Base line -->
+  <line
+    x1="31.968"
+    y1="36.995"
+    x2="31.968"
+    y2="63.571"
+    class="line" />
+  <line
+    x1="31.610"
+    y1="50.229"
+    x2="-0.389"
+    y2="50.229"
+    class="line" />
+
+  <!-- Collector -->
+  <line
+    x1="32.041"
+    y1="42.560"
+    x2="49.818"
+    y2="32.633"
+    class="line" />
+  <line
+    x1="49.896"
+    y1="32.008"
+    x2="49.896"
+    y2="-0.514"
+    class="line" />
+
+  <!-- Emitter -->
+  <line
+    x1="34.025"
+    y1="59.105"
+    x2="49.950"
+    y2="68.475"
+    class="line" />
+  <line
+    x1="49.899"
+    y1="68.992"
+    x2="49.899"
+    y2="100.510"
+    class="line" />
+
+  <!-- Arrow on emitter line -->
+  <polygon
+    points="64.5,66.5 58.5,66.5 61.5,62.5"
+    class="arrow"
+    transform="matrix(0.865, -1.417, 1.451, 0.846, -111.879, 92.302)" />
+
+</svg>

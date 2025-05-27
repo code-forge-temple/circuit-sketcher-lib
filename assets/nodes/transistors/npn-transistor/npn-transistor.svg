@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   stroke-linejoin="round"
+   stroke-linecap="round"
+   version="1.1"
+   id="svg6"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <style
+     id="style1">
+    .line { stroke: #cccccc; stroke-width: 2; fill: none; }
+    .arrow { fill: #cccccc; }
+  </style>
+  <!-- Transistor circle body -->
+  <ellipse
+     cx="40.904179"
+     cy="50.283279"
+     rx="24.809464"
+     ry="22.144527"
+     class="line"
+     id="ellipse1" />
+  <!-- Base line -->
+  <line
+     x1="31.967514"
+     y1="36.995106"
+     x2="31.967514"
+     y2="63.571457"
+     class="line"
+     id="line1" />
+  <line
+     x1="31.610455"
+     y1="50.228523"
+     x2="-0.38898501"
+     y2="50.228523"
+     class="line"
+     id="line2" />
+  <!-- Collector -->
+  <line
+     x1="32.041256"
+     y1="42.560074"
+     x2="49.818211"
+     y2="32.632637"
+     class="line"
+     id="line3" />
+  <line
+     x1="49.896332"
+     y1="32.008179"
+     x2="49.896332"
+     y2="-0.51423931"
+     class="line"
+     id="line4" />
+  <!-- Emitter -->
+  <line
+     x1="32.23912"
+     y1="58.254723"
+     x2="49.864208"
+     y2="68.388786"
+     class="line"
+     id="line5" />
+  <line
+     x1="49.899254"
+     y1="68.991707"
+     x2="49.899254"
+     y2="100.5098"
+     class="line"
+     id="line6" />
+  <!-- Arrow on emitter line -->
+  <polygon
+     points="58.5,66.5 61.5,62.5 64.5,66.5 "
+     class="arrow"
+     transform="matrix(-0.83346795,1.4361438,-1.4696598,-0.81323379,192.21422,30.54404)"
+     id="polygon6" />
+</svg>
