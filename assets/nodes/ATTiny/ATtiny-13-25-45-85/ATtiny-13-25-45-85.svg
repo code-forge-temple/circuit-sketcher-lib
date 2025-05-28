@@ -38,10 +38,10 @@
   <text x="14" y="50" class="text">4</text>
 
   <!-- Pin numbers (right) -->
-  <text x="46" y="14" class="text" text-anchor="end">5</text>
-  <text x="46" y="26" class="text" text-anchor="end">6</text>
-  <text x="46" y="38" class="text" text-anchor="end">7</text>
-  <text x="46" y="50" class="text" text-anchor="end">8</text>
+  <text x="46" y="14" class="text" text-anchor="end">8</text>
+  <text x="46" y="26" class="text" text-anchor="end">7</text>
+  <text x="46" y="38" class="text" text-anchor="end">6</text>
+  <text x="46" y="50" class="text" text-anchor="end">5</text>
 
   <!-- Rotated chip label -->
   <text
